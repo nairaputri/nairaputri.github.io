@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url("D:/NAIRA PUTRI ERINA_2206824496_DTPI WEB/img/background 3.jpg");
+    background-size: cover;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  font-family: Arial Narrow;
+  background-color: #FFE61B;
+  background-size: cover;
+}
+
+.header h1 {
+  font-size: 50px;
+  text-shadow: transparent;
+  font-family: sans-serif;
+  color: black;
+  text-shadow: none;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #FFFDA2;
+  color: black;
+}
+
+.active {
+  background-color: #FFFDA2;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+}
+
+.column li {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+body h1 {
+  font-family: licorice;
+  font-size: 60px;
+  text-shadow: 0 0 0.1em #533535, 0 0 0.2em #533535, 0 0 0.3em #533535, 0 0 0.4em #533535,0 0 0.6em #533535, 0 0 0.8em #533535, 0 0 1.0em #E6CCA9, 0 0 1.2em #E6CCA9;
+    color: #FBFBFB;
+}
+
+h2 {
+  font-family: licorice;
+  font-size: 40px;
+  border-bottom: 4px double darkred;
+}
+
+p {
+  text-align: justify;
+}
+
+.rightcolumn {   
+  float: right;
+  width: 60%;
+  padding: 25px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:30px) {
+ .column {
+    width: 20%;
+  }
+
+section {
+    height: 120vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}

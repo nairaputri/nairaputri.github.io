@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  font-family: Arial Narrow;
+  background-color: #A85CF9;
+  background-size: cover;
+}
+
+.header h1 {
+  font-size: 50px;
+  text-shadow: transparent;
+  font-family: sans-serif;
+  color: black;
+}
+
+.header p {
+  color: black;
+  font-family: sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #D58BDD;
+  color: black;
+}
+
+.active {
+  background-color: #D58BDD;
+  border-left: 2px purple;
+  border-right: 2px purple;
+}
+
+body {
+    background-image: url("D:/NAIRA PUTRI ERINA_2206824496_DTPI WEB/img/background.jpg");
+    background-size: cover;
+}
+
+.table,tr,td{
+    background-image: url("D:/NAIRA PUTRI ERINA_2206824496_DTPI WEB/img/background.jpg");
+    color: black;
+    padding: 5px;
+    border-collapse: collapse;
+ }
+
+.posisi {
+    margin: auto;
+}
+
+.kotak {
+    background-image: url("D:/NAIRA PUTRI ERINA_2206824496_DTPI WEB/img/ningning.jpg");
+    width: 50%;
+    border: 1px solid gray;
+    height: 50%;
+    margin: auto;
+}
+
+.column2 {
+    float: left;
+    width: 28%;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+.column3 {
+    float: left;
+    width: 23%;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:100px) {
+    .column {
+        width: 30%;
+    }
+}
+
+.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.likes ul li {
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    border-bottom: 3px double grey;
+    margin-bottom: 12px;
+    color: black;
+}
+
+.img {
+    width: 30%;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-family: licorice;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: pushster;
+    font-size: 35px;
+    border: 2px solid red;
+}
+
+section {
+    height: 120vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}

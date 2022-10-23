@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  font-family: Arial Narrow;
+  background-color: #EB1D36;
+  background-size: cover;
+}
+
+.header h1 {
+  font-size: 50px;
+  text-shadow: transparent;
+  font-family: sans-serif;
+  color: black;
+  text-shadow: none;
+}
+
+.header p {
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+body {
+    background-image: url("D:/NAIRA PUTRI ERINA_2206824496_DTPI WEB/img/background 2.jpg");
+    background-size: cover;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #FF5151;
+  color: black;
+}
+
+.active {
+  background-color: #FF5151;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.column {
+    float: left;
+    width: 70%;
+    padding: 40px;
+    margin: auto;
+}
+
+.row {margin: 15px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 30px) {
+  .column {
+    width: 20%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+}
+
+.polaroid {
+    width: 70%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.container p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  padding: 20px;
+  font-family: licorice;
+  text-shadow: 2px 5px 5px #533535;
+  margin-top: -40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: licorice;
+}
+
+p {
+  text-align: left;
+  font-family: dosis;
+}
+
+section {
+    height: 150vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
